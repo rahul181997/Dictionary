@@ -35,9 +35,9 @@ function XDictionary() {
         <button onClick={handleSearch}>Search</button>
       </div>
       <div>
+      <h2>Definition:</h2>
         {searchResult && (
           <div>
-            <h2>Definition:</h2>
             <p>{searchResult}</p>
           </div>
         )}
